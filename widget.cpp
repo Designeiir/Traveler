@@ -98,7 +98,7 @@ Widget::Widget(QWidget *parent)
 
     }
 
-    MyPushButton *btn_zonghe = new MyPushButton("://点赞 (2).png","://点赞 (1).png");
+    MyPushButton *btn_zonghe = new MyPushButton("://not_thump_up.png","://thump_up.png");
     btn_zonghe->setParent(ui->widget);//设置他的依赖框架
     btn_zonghe->move(180,60);//移动他的位置
 
@@ -109,7 +109,7 @@ Widget::Widget(QWidget *parent)
         ui->stackedWidget->setCurrentIndex(0);
     });
 
-    MyPushButton *btn_rizhi = new MyPushButton("://点赞 (2).png","://点赞 (1).png");
+    MyPushButton *btn_rizhi = new MyPushButton("://not_thump_up.png","://thump_up.png");
     btn_rizhi->setParent(ui->widget);//设置他的依赖框架
     btn_rizhi->move(290,60);//移动他的位置
 
@@ -120,7 +120,7 @@ Widget::Widget(QWidget *parent)
         ui->stackedWidget->setCurrentIndex(0);
     });
 
-    MyPushButton *btn_yueche = new MyPushButton("://点赞 (2).png","://点赞 (1).png");
+    MyPushButton *btn_yueche = new MyPushButton("://not_thump_up.png","://thump_up.png");
     btn_yueche->setParent(ui->widget);//设置他的依赖框架
     btn_yueche->move(650,60);//移动他的位置
 
