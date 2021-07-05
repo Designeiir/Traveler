@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>点赞 (1).png</file>
+        <file>点赞 (2).png</file>
+    </qresource>
+</RCC>
