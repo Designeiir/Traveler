@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>not_thump_up.png</file>
+        <file>thump_up.png</file>
+    </qresource>
+</RCC>
